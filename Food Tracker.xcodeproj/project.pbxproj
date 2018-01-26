@@ -13,6 +13,7 @@
 		FEDB2B9A201782AA00E55A70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEDB2B99201782AA00E55A70 /* Assets.xcassets */; };
 		FEDB2B9D201782AA00E55A70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEDB2B9B201782AA00E55A70 /* LaunchScreen.storyboard */; };
 		FEDB2BA8201782AA00E55A70 /* Food_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEDB2BA7201782AA00E55A70 /* Food_TrackerTests.swift */; };
+		FEEF42DB201A405A00FB3B65 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF42DA201A405A00FB3B65 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		FEDB2BA3201782AA00E55A70 /* Food TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Food TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEDB2BA7201782AA00E55A70 /* Food_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food_TrackerTests.swift; sourceTree = "<group>"; };
 		FEDB2BA9201782AA00E55A70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEEF42DA201A405A00FB3B65 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FEDB2B92201782AA00E55A70 /* AppDelegate.swift */,
 				FEDB2B94201782AA00E55A70 /* ViewController.swift */,
+				FEEF42DA201A405A00FB3B65 /* RatingControl.swift */,
 				FEDB2B96201782AA00E55A70 /* Main.storyboard */,
 				FEDB2B99201782AA00E55A70 /* Assets.xcassets */,
 				FEDB2B9B201782AA00E55A70 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FEDB2B95201782AA00E55A70 /* ViewController.swift in Sources */,
+				FEEF42DB201A405A00FB3B65 /* RatingControl.swift in Sources */,
 				FEDB2B93201782AA00E55A70 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF72KB8VGE;
 				INFOPLIST_FILE = "Food Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Food-Tracker";
@@ -368,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AF72KB8VGE;
 				INFOPLIST_FILE = "Food Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brettbertola.Food-Tracker";
